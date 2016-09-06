@@ -1,0 +1,22 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "learn scss",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwini-projects/scss.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "ashwini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwini-projects/scss/issues"
+  },
+  "homepage": "https://github.com/ashwini-projects/scss#readme"
+}
