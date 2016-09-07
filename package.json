@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ashwini-projects/scss/issues"
   },
-  "homepage": "https://github.com/ashwini-projects/scss#readme"
+  "homepage": "https://github.com/ashwini-projects/scss#readme",
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
+  }
 }
