@@ -1,12 +1,10 @@
 let gulp = require('gulp');
-let scss = require('gulp-scss');
 let sass = require('gulp-sass');
 
-
 gulp.task('sass', () => {
-  return gulp.src("style/**/*.scss")
+  return gulp.src("style/scss/**/*.scss")
   .pipe(sass().on('error', sass.logError))
-  .pipe(gulp.dest('style/css/'))
+  .pipe(gulp.dest('style/'))
 });
 
 gulp.task('sass:watch', () => {
@@ -14,16 +12,5 @@ gulp.task('sass:watch', () => {
   gulp.watch("*.js", ['sass']);
 });
 
-gulp.task('scss', () => {
-  gulp.src(
-    "style/scss/**/*.scss"
-    )
-    .pipe(scss(
-      {"bundleExec": true}
-    ))
-    .pipe(gulp.dest("style/css"));
-});
-
-// gulp.task('default', ['watch', 'scss', 'serve']);
 gulp.task('default', ['sass:watch', 'sass']);
 

@@ -1,13 +1,21 @@
+/* Base - Base styles, variables, mixins etc */
 @import 'base/_variables.scss';
 @import 'base/_mixins.scss';
 @import 'base/_reset.scss';
 @import 'base/_base.scss';
 
+/* Layout - Layout related files */
 @import 'layout/_header.scss';
 @import 'layout/_footer.scss';
 @import 'layout/_nav.scss';
+@import 'layout/_sidebar.scss';
 
+/* Modules - various components of styles */
 @import 'modules/_typography.scss';
-@import 'modules/_buttons.scss';
 @import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
 @import 'modules/_components.scss';
+@import 'modules/_forms.scss';
+@import 'modules/_tables.scss';
+
